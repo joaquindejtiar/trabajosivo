@@ -35,10 +35,44 @@ body {
     justify-content: space-around;
 }
 .jugador {
-    background-color: crimson;
-    width: 3rem;
-    height: 3rem;
+    background-color: rgb(9, 116, 116);
     display: flex;
+    color: black;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    padding: 0.8rem;
+    border: 0.1rem solid rgb(2, 48, 48);
+    border-radius: 1rem;   
+}
+.dorsal {
+    font-size: 1.4rem;
+    font-weight: 800;
+    background-color: navy;
+    color: white;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+ .arquero {
+    background-color: white;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.8rem;
+    border: 0.1rem solid gold;
+    border-radius: 1rem;   
+}
+.nombre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.balon {
+    position: absolute;
+    scale: 0.9;
+    right: 60%;
 }
