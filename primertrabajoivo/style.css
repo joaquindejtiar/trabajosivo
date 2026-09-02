@@ -35,6 +35,7 @@ body {
     justify-content: space-around;
 }
 .jugador {
+    position: relative;
     background-color: rgb(9, 116, 116);
     display: flex;
     color: black;
@@ -74,5 +75,12 @@ body {
 .balon {
     position: absolute;
     scale: 0.9;
-    right: 60%;
+    right: 55%;
+    bottom: 50%;
+}
+.jugadorestrella {
+    position: absolute;
+    scale: 0.9;
+    right: 55%;
+    bottom: 50%;
 }
