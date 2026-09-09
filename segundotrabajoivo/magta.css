@@ -9,18 +9,23 @@
     background-color: white;
     padding-left: 4rem;
     padding-right: 4rem;
+    display: flex;
+    justify-content: center;
 }
 .cuerpoentero {
     display: flex;
     flex-direction: column;
     background-color: #E6E5E5;
     height: 100vh;
-    width: 75rem;   
+    width: 42rem;
+    position: relative;   
 }
 .cabeza {
    background-color: #656A73;
    width: 100%;
-   height: 1rem; 
+   height: 3rem; 
+   display: flex;
+   align-items: center;
 }
 .seccionarriba {
     background-color: #CCCBCA;
@@ -34,27 +39,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .primeraseccion {
     background-color: #F2F2F2;
     width: 100%;
-    height: 10rem;
+    height: 9.8rem;
+    margin-top: 4rem;
 }
 .seccionbaja {
     width: 100%;
-    height: 17rem;
+    flex: 1;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
 }
 .articulo {
-    width: 23rem;
-    height: 10rem;
+    width: 12.5rem;
+    height: 17rem;
     background-color: #F2F2F2;
 }
 .pie {
     background-color: #636870;
     width: 100%;
-    height: 9rem;
+    height: 5rem;
+}
+.rectangulonaranjahead {
+    width: 11.8rem;
+    height: 1.6rem;
+    background-color: #FFB959;
+    margin: 1rem;
 }
