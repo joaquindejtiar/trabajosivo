@@ -26,11 +26,14 @@
    height: 3rem; 
    display: flex;
    align-items: center;
+   gap: 1rem;
+   position: relative;
 }
 .seccionarriba {
     background-color: #CCCBCA;
     width: 100%;
     height: 2rem;
+    display: flex;
 }
 .seccionmedia {
     background-color: #E6E5E5;
@@ -70,4 +73,39 @@
     height: 1.6rem;
     background-color: #FFB959;
     margin: 1rem;
+}
+.rectanguloblancohead {
+    width: 7rem;
+    height: 0.8rem;
+    background-color: white;
+}
+.paraflets {
+    width: 22rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+.rectangulonaranjaflaco {
+    width: 3rem;
+    background-color: #FFB959;
+    height: 0.8rem;
+}
+.lineausada {
+    height: 100%;
+    width: 5.6rem;
+    background-color: #565a5f;
+}
+.secciondadlinea {
+    height: 100%;
+    width: 5.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lineanegra {
+    background-color: #565a5f;
+    width: 3.4rem;
+    height: 0.3rem;
 }
