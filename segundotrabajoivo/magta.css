@@ -109,3 +109,72 @@
     width: 3.4rem;
     height: 0.3rem;
 }
+.primeraseccion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.cajanegramedio {
+    width: 11rem;
+    height: 7rem;
+    background-color: #656A73;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.rectangulillo {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #FFB959;
+    width: 7rem;
+    height: 1rem;
+    top: 1.5rem;
+}
+.pele {
+    width: 7rem;
+    height: 0.3rem;
+    background-color: white;
+    position: absolute;
+    top: 3.35rem;
+}  
+.guille {
+    width: 7rem;
+    height: 0.3rem;
+    background-color: white;
+    position: absolute;
+    top: 4.35rem;
+}
+.pelechica {
+    width: 4rem;
+    height: 0.3rem;
+    background-color: white;
+    position: absolute;
+    top: 5.35rem;
+    left: 2rem;
+}
+.cajaleft {
+    position: absolute;
+    left: 20rem;
+    width: 19rem;
+    height: 6rem;
+    display: flex;
+}
+.seccionpadrefirst {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 4rem;
+}
+.cabezilla {
+    width: 100%;
+    height: 0.4rem;
+    background-color: #656A73;
+}
+.iguales {
+    width: 100%;
+    height: 0.4rem;
+    background-color: #cfd1d4
+}     
