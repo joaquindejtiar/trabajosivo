@@ -58,17 +58,6 @@
      display: flex;
      justify-content: space-between;
 }
-.articulo {
-     width: 12.5rem;
-     background-color: #F2F2F2;
-     display: flex;
-     align-items: center;
-}
-.pie {
-    background-color: #636870;
-    width: 100%;
-    height: 5rem;
-}
 .rectangulonaranjahead {
     width: 11.8rem;
     height: 1.6rem;
@@ -202,8 +191,95 @@
     right: 2rem;
     top: 7rem;
 }
+.articulo {
+     width: 12.5rem;
+     background-color: #F2F2F2;
+     display: flex;
+     flex-direction: column;
+}
+.arriba {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.abajo {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .elcuadra {
-    width: 3rem;
-    height: 3rem;
+    width: 5.3rem;
+    height: 5.3rem;
+    background-color: #656A73;
+}
+.elcuadra1 {
+    width: 5.3rem;
+    height: 5.3rem;
     background-color: salmon;
+}
+.elcuadra2 {
+    width: 5.3rem;
+    height: 5.3rem;
+    background-color: #FFB959;
+}
+.xd {
+    width: 6.8rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.67rem;
+    align-items: center;
+}
+.anca {
+    width: 100%;
+    height: 23%;
+    background-color: #656A73;
+}
+.same {
+    width: 100%;
+    height: 6.7%;
+    background-color: #cfd1d4;
+}
+.last {
+    width: 55%;
+    height: 6.7%;
+    background-color: #cfd1d4;
+}
+.pie {
+    background-color: #636870;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.inlcuyeloscuatro {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+}
+.eltexto {
+    width: 4.8rem;
+    height: 50%; 
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+.identicos {
+    width: 100%;
+    height: 0.2rem;
+    background-color: #CBCAC9;
+}
+.falla {
+    width: 50%;
+    height: 0.2rem;
+    background-color: #CBCAC9;
 }
